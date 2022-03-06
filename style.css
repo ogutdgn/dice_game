@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 #container{
@@ -11,12 +12,13 @@
     /* justify-content: space-around; */
     align-items: center;
     padding: 50px;
-    margin: 30px;
+    margin: 15px;
     border-radius: 30px;
+    padding-bottom: 60px;
 }
 
 .btn_new{
-    margin-bottom: 30px;
+    margin-bottom: 75px;
     border: none;
     background-color: blueviolet;
     color: white;
@@ -24,7 +26,6 @@
     height: 30px;
     border-radius: 20px;
     font-weight: 600;
-    
 }
 .btn_1{
     display: flex;
@@ -34,7 +35,14 @@
 .players{
     display: flex;
     justify-content: space-around;
-    margin-bottom: 60px;
+    margin-bottom: 130px;
+}
+
+.turn{
+    color: red;
+}
+.no-turn{
+    color: black;
 }
 
 .player1,
@@ -87,9 +95,39 @@
     border-radius: 30px;
     width: 100px;
     font-weight: 600;
+    height: 50px;
 }
 
 .first-player-value,
 .second-player-value {
+    margin-top: 50px;
+}
+
+.actives{
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.active_1,
+.active_2 {
+    border: 2px solid crimson;
+    border-radius: 20px;
+    width: 75px;
+    text-align: center;
+    color: red;
+    align-items: center;
+}
+
+.current-value-first{
+    margin-top: 30px;
+}
+.current-value-second{
+    margin-top: 30px;
+}
+
+.information{
+    display: flex;
+    justify-content: center;
     margin-top: 50px;
 }

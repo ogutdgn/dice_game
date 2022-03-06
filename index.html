@@ -10,11 +10,13 @@
 <body>
     <div id="container">
         <div class="btn_1">
-            <button class="btn_new">New Game</button>
+            <!-- <button class="btn_new">New Game</button> -->
+            <!-- <input class="btn_new" type="button" value="New Game" onClick="reload"> -->
+            <button class="btn_new" onClick="window.location.reload();">New Game</button>
         </div>
 
         <div class="players">
-            <div class="player1">
+            <div class="player1 turn">
                 <h2 class="first-player">Player1</h2>
                 <h1 class="first-player-value">0</h1>
             </div>
@@ -23,7 +25,7 @@
                 <h1 class="dice-value"></h1>
             </div>
 
-            <div class="player2">
+            <div class="player2 no-turn">
                 <h2 class="second-player">Player2</h2>
                 <h1 class="second-player-value">0</h1>
             </div>
@@ -38,7 +40,7 @@
         <div class="output">
             <div class="first-current">
                 <h4>CURRENT</h4>
-                <h4 class="current-value-first">0</h4>
+                <h1 class="current-value-first">0</h1>
             </div>
 
             <div class="result-buttons">
@@ -48,8 +50,12 @@
 
             <div class="second-current">
                 <h4>CURRENT</h4>
-                <h4 class="current-value-second">0</h4>
+                <h1 class="current-value-second">0</h1>
             </div>
+        </div>
+
+        <div class="information">
+            <p>You need to get 50 points to win. Good Luck!!</p>
         </div>
     </div>
     <script src="app.js"></script>
