@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    background-color: bisque;
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: space-around; */
+    align-items: center;
+    padding: 50px;
+    margin: 30px;
+    border-radius: 30px;
+}
+
+.btn_new{
+    margin-bottom: 30px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    font-weight: 600;
+    
+}
+.btn_1{
+    display: flex;
+    justify-content: center;
+}
+
+.players{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+.player1,
+.player2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dice-value{
+    padding-top: 7px;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+    height: 50px;
+}
+
+.output{
+    display: flex;
+    justify-content: space-around;
+}
+
+.result-buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.first-current,
+.second-current {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: pink;
+    border-radius: 30px;
+    width: 100px;
+    color: brown;
+}
+
+.role-dice{
+    margin-bottom: 50px;
+}
+
+.role-dice,
+.hold {
+    border: none;
+    background-color: chartreuse;
+    border-radius: 30px;
+    width: 100px;
+    font-weight: 600;
+}
+
+.first-player-value,
+.second-player-value {
+    margin-top: 50px;
+}
